@@ -93,7 +93,6 @@ main {
 
 .aligned-text {
   position: relative;
-  position: absolute;
   top: 165px;
   left: 50px;
   z-index: 2;
@@ -110,7 +109,6 @@ main {
 .aligned-text_center {
   position: relative;
   position: absolute;
-  top: 300px;
   right: 110px;
   bottom: 357px;
   left: 50px;
@@ -325,7 +323,7 @@ main {
   justify-content: space-between;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  align-items: start;
+ 
   padding: 90px 50px;
 }
 
