@@ -279,7 +279,7 @@ main {
 .about {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 24px;
+  column-gap: 25px;
   padding: 0 50px;
 }
 
@@ -302,6 +302,7 @@ main {
   height: 240px;
   border-radius: 50%;
   background-color: #000;
+  margin-left: 140px;
 }
 
 .about__logo-image {
