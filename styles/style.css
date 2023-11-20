@@ -78,7 +78,7 @@ main {
 
 .overlay {
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   top: 0;
   left: 0;
   width: 100%;
@@ -191,7 +191,6 @@ main {
   line-height: normal;
   text-transform: uppercase;
   background-color: transparent;
-
   color: #fff;
 }
 
@@ -224,8 +223,10 @@ main {
 }
 
 .lots__card-list-item {
+  position: relative;
   display: flex;
   flex-grow: 1;
+ 
   width: 430px;
   height: 450px;
 
