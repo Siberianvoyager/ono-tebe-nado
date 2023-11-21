@@ -38,7 +38,9 @@ main {
 
 .no__underline {
   text-decoration: none;
+  pointer-events: none;
 }
+
 
 .header-logo-black {
   width: 100%;
@@ -116,7 +118,7 @@ main {
   left: 50px;
   z-index: 2;
   color: #fff;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
@@ -133,7 +135,7 @@ main {
   z-index: 2;
   color: #fff;
   text-align: center;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
@@ -149,7 +151,7 @@ main {
   z-index: 2;
   color: #fff;
   text-align: center;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
@@ -345,18 +347,19 @@ main {
   gap: 25px;
   font-size: 20px;
   line-height: normal;
-  margin-bottom: 25px;
   max-width: 885px;
-  
+}
+.text__margin {
+  margin-bottom: 25px;
 }
 
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
+  align-items: start;
   width: 1340px;
-  align-items: center;
-  margin: 180px 50px 90px 50px;
+  margin: 190px 50px 90px 50px;
  
 
 }
@@ -378,7 +381,9 @@ main {
 }
 
 .footer__menu-link_active {
+  font-size: 18px;
   text-decoration: none;
+  pointer-events: none;
 }
 
 .footer__social-list {
@@ -386,7 +391,7 @@ main {
   justify-content: space-between;
   flex-wrap: wrap;
   justify-self: end;
-  align-items: center;
+  align-items: start;
   width: 240px;
   gap: 48px;
   max-width: 240px;
