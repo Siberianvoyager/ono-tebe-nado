@@ -300,7 +300,7 @@ main {
 
 .about {
   display: grid;
-  grid-template-columns: 0.9fr 1fr 1fr;
+  grid-template-columns: 0.83fr 1fr 1fr;
   width: 1340px;
   column-gap: 25px;
   margin: 0 50px;
@@ -321,13 +321,13 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-shrink: 0;
   width: 240px;
   height: 240px;
   border-radius: 50%;
   background-color: #000;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 45px;
+  margin-top: 10px;
 }
 
 .about__logo-image {
@@ -349,6 +349,7 @@ main {
   line-height: normal;
   max-width: 885px;
 }
+
 .text__margin {
   margin-bottom: 25px;
 }
