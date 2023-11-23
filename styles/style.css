@@ -13,7 +13,7 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  padding: 92px 49px 92px 51px;
+  padding: 90px 49px 92px 51px;
   background-color: white;
   width: 1440px;
 }
@@ -113,9 +113,9 @@ main {
 .aligned-text {
   top: 165px;
   padding-left: 50px;
-  z-index: 2; 
+  z-index: 2;
   color: #FFF;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
@@ -129,7 +129,7 @@ main {
 }
 
 .aligned-text_center {
-  z-index: 2; 
+  z-index: 2;
   color: #FFF;
   text-align: center;
   font-family: Raleway;
@@ -149,7 +149,7 @@ main {
 
 .aligned-text_right {
   top: 420px;
-  z-index: 2; 
+  z-index: 2;
   color: #FFF;
   text-align: center;
   font-family: Raleway;
@@ -301,7 +301,7 @@ main {
   grid-template-columns: 0.83fr 1fr 1fr;
   width: 1340px;
   column-gap: 25px;
-  margin: 0 50px ;
+  margin: -10px 50px 0;
 }
 
 .about__column {
@@ -344,6 +344,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 25px;
+
 }
 
 .about__text {
@@ -383,6 +384,7 @@ main {
 
 .footer__menu-link_active {
   text-decoration: none;
+  font-size: 18px;
 }
 
 .footer__social-list {
@@ -393,10 +395,6 @@ main {
   justify-self: end;
   gap: 48px;
   list-style: none;
-}
-
-.footer__address-link {
-  text-underline-offset: 5px;
 }
 
 .address {
