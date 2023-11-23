@@ -38,6 +38,7 @@ main {
 
 .no__underline {
   text-decoration: none;
+  pointer-events: none;
 }
 
 .header-logo-black {
@@ -358,7 +359,7 @@ main {
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
   width: 1340px;
-  align-items: center;
+  align-items: start;
   margin: 180px 50px 100px 50px;
  
 
@@ -385,6 +386,7 @@ main {
 .footer__menu-link_active {
   text-decoration: none;
   font-size: 18px;
+  pointer-events: none;
 }
 
 .footer__social-list {
