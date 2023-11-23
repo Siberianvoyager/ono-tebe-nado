@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="stylesheet" href="fonts/fonts.css" />
-    <link rel="stylesheet" href="styles/global.css" />
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="fonts/fonts.css" >
+    <link rel="stylesheet" href="styles/global.css" >
+    <link rel="stylesheet" href="styles/style.css" >
   </head>
   <body>
     <header class="header">
       <nav class="header__menu">
         <ul class="header__menu-list">
           <li class="header__menu-list-item header__menu-list-item_no-bullit">
-            <a class="header__link  no__underline" href="0">главная</a>
+            <a class="header__link  no__underline">главная</a>
           </li>
           <li class="header__menu-list-item">
             <a class="header__link" href="#0">посмотреть лоты</a>
@@ -29,13 +29,13 @@
           class="header-logo-black"
           src="images/logo-black.svg"
           alt="Логотип проекта"
-        />
+        >
       </a>
       <address class="header__address">
         <a class="address__item" href="tel:+99995555555">+9 999 555 5555</a>
         <a class="address__item" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p>
-          наб. Принсенграхт 263-265, <br />
+          наб. Принсенграхт 263-265, <br >
           Амстердам
         </p>
       </address>
@@ -43,18 +43,13 @@
 
     <main>
       <section class="cover">
-        <div class="overlay">
-          <h1 class="cover__title">
-            <span class="aligned-text"
-              >о<span class="letter-spacing-extended">но</span></span
-            >
-            <span class="aligned-text_center"
-              >те<span class="letter-spacing-extended">бе</span></span
-            >
-            <span class="aligned-text_right letter-spacing-extended"
-              >н<span class="letter-spacing-regular">адо</span></span
-            >
-          </h1>
+      
+       <div class="overlay"></div>
+        <h1 class="cover_title">
+          <span class="aligned-text">О<span class="aligned-text-space-dua">но</span></span>
+          <span class="aligned-text_center">те<span class="aligned-text_center-dua">бе</span></span>
+          <span class="aligned-text_right"><span class="aligned-text_right-dua">н</span>адо</span>
+        </h1>
 
           <div class="cover__description">
             <p class="cover__description-text">
@@ -69,9 +64,9 @@
         <h2 class="lots__heading">Лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
-            <div class="overlay"></div>
+            <a class="card-link" href="#0">
             <article class="card card_type_film">
-              
+              <div class="overlay"></div>
               <h3 class="card__title">
                 Фильм режиссёра, который бросил киношколу
               </h3>
@@ -80,11 +75,12 @@
                 ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
               </p>
             </article>
+          </a>
           </li>
           <li class="lots__card-list-item">
-            <div class="overlay"></div>
+            <a class="card-link" href="#0">
             <article class="card card_type_book">
-            
+              <div class="overlay"></div>
               <h3 class="card__title">
                 Книга, где описан один скучный день из жизни рекламного агента
               </h3>
@@ -97,11 +93,12 @@
                 Джойса?
               </p>
             </article>
+          </a>
           </li>
           <li class="lots__card-list-item">
-            <div class="overlay"></div>
+          <a class="card-link" href="#0">
             <article class="card card_type_picture">
-             
+              <div class="overlay"></div>
               <h3 class="card__title">
                 Картина, которую повторит даже 5-летний сын маминой подруги
               </h3>
@@ -112,6 +109,7 @@
                 это — одна из революционных работ Кандинского?
               </p>
             </article>
+          </a>
           </li>
         </ul>
         <a class="lots__look-more-link" href="#0"
@@ -125,11 +123,12 @@
             class="about__logo-image"
             src="./images/logo-white.svg"
             alt="Логотип проекта"
-          />
+          >
         </div>
         <div class="about about__column_text">
           <h2 class="about__title">Об аукционе</h2>
-          <p class="about__text text__margin">
+          <div class="text">
+          <p class="about__text">
             Здесь вы не встретите очередное пафосное собрание невероятно
             дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
             один аукцион. Потому что кому нужен дневник девочки-подростка или
@@ -145,6 +144,7 @@
             продолжали верить их создатели. И сейчас эти лоты стали культовыми.
           </p>
         </div>
+        </div>
       </section>
     </main>
 
@@ -153,19 +153,19 @@
         <a class="footer__address-link" href="tel:+99995555555"
           >+9 999 555 5555</a
         >
-        <br />
+        <br >
         <a class="footer__address-link" href="mailto:info@sobaka.ge"
           >info@sobaka.ge</a
         >
         <p>
-          наб. Принсенграхт 263-265, <br />
+          наб. Принсенграхт 263-265, <br >
           Амстердам
         </p>
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link_active" href="0">главная</a>
+            <a class="footer__menu-link_active">главная</a>
           </li>
           <li class="footer__menu-list-item">
             <a class="footer__menu-link" href="#0">посмотреть лоты</a>
@@ -182,7 +182,7 @@
               class="footer__social-icon"
               src="images/yt.svg"
               alt="YouTube"
-            />
+            >
           </a>
         </li>
         <li class="footer__social-list-item">
@@ -191,7 +191,7 @@
               class="footer__social-icon"
               src="images/vk.svg"
               alt="Иконка VK"
-            />
+            >
           </a>
         </li>
         <li class="footer__menu-list-item">
@@ -200,7 +200,7 @@
               class="footer__social-icon"
               src="images/pinterest.svg"
               alt="Иконка Pinterest"
-            />
+            >
           </a>
         </li>
       </ul>
