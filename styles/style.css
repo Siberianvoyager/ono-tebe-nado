@@ -133,7 +133,7 @@ main {
   z-index: 2;
   color: #FFF;
   text-align: center;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
@@ -153,7 +153,7 @@ main {
   z-index: 2;
   color: #FFF;
   text-align: center;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
@@ -207,7 +207,7 @@ main {
 
 .lots {
   width: 1340px;
-  margin: 187px 50px ;
+  margin: 187px 50px 200px;
 }
 
 .lots__heading {
@@ -221,19 +221,21 @@ main {
 }
 
 .lots__card-list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   column-gap: 25px;
   list-style: none;
-  
+  margin-right: -25px;
 }
+
 
 .lots__card-list-item {
   position: relative;
   display: flex;
   flex-grow: 1;
-  width: 430px;
   height: 450px;
+  max-width: calc(33.33% - 25px);
 }
 
 .card-link {
